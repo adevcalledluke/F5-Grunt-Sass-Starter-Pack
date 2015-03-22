@@ -1,10 +1,10 @@
-# Foundation libsass template
+# Foundation 5 with Grunt and Libsass, also includes Uglify and Autoprefixer
 
-This is a template to start your own project that uses Grunt and libsass!
+This is a base Foundation 5 template that uses Grunt and Libsass, use this to start a new project.
 
 ## Requirements
 
-You'll need to have the following items installed before continuing.
+You'll need to have the following items installed on your computer before continuing.
 
   * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
   * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
@@ -12,8 +12,8 @@ You'll need to have the following items installed before continuing.
 
 ## Quickstart
 
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
+```
+git clone https://github.com/adevcalledluke/F5-Grunt-Sass-Starter-Pack.git
 npm install && bower install
 ```
 
@@ -24,6 +24,9 @@ While you're working on your project, run:
 And you're set!
 
 ## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+Sass
+  * `scss/global/_settings.scss`: Foundation configuration settings go in here
+  * `scss/main.scss`: Application styles go here
+  
+JS
+  * `js/components`: Add all your JS Components here, they will be compiled into `main.js`

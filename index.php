@@ -8,6 +8,8 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
+      
+    <!-- Content -->
     
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
